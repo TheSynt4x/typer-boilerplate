@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+typer = {extras = ["all"], version = "*"}
+pydantic = {extras = ["dotenv"], version = "*"}
+httpx = "*"
+
+[dev-packages]
+black = "*"
+isort = "*"
+flake8 = "*"
+autoflake = "*"
+pre-commit = "*"
+rope = "*"
+
+[requires]
+python_version = "3.10"
+
+[pipenv]
+allow_prereleases = false
