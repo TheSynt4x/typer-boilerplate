@@ -19,3 +19,4 @@ or
 pipenv install --dev
 ```
 
+Rename `.env.example` to `.env` and start coding!
